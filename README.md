@@ -1,2 +1,2 @@
-# ciTvSdk
+# seattleTvSdk
 tv sdk for build
