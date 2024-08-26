@@ -97,11 +97,11 @@
         {
           "name": "seattle_tv_sdk-1.2.3.aar",
           "url": "seattle_tv_sdk-1.2.3.aar",
-          "size": 126988,
-          "sha512": "df96d2268b8d8ca6ff69c655d5f41cf3ddcab8c8adf6cb634ddd7ecf4161ce41eee4629a0fe3b74a3b4a9e90f06f4a9bff23d4f361828c930a19aaefcb768058",
-          "sha256": "318f2a13e267dede2bbf80f8efc58245c2ceeba70e01efab2f25e20d1c1d246b",
-          "sha1": "315bebc163ba79c1bbc001e7ef615cbeecc7aa6b",
-          "md5": "57479be6e63ba189562fc1fb6c983a84"
+          "size": 127555,
+          "sha512": "21f118f6d479b346702aa3d4a9340aaaf53b3e6f97190c972bfefaf3509594742e47b61bae3d10204a47ad8fe2c1c64cea34e7c86bd2c51ab6b56c81cbbd3b1c",
+          "sha256": "7bacd2cc00555691a9706d47a1d5b4786677b36800cfd4999f2493213fec1ee9",
+          "sha1": "05b055565b6194d055ddcab71650ed4637736138",
+          "md5": "619801f9e3504a32daeb0ff6a85560e5"
         }
       ]
     },
@@ -195,11 +195,11 @@
         {
           "name": "seattle_tv_sdk-1.2.3.aar",
           "url": "seattle_tv_sdk-1.2.3.aar",
-          "size": 126988,
-          "sha512": "df96d2268b8d8ca6ff69c655d5f41cf3ddcab8c8adf6cb634ddd7ecf4161ce41eee4629a0fe3b74a3b4a9e90f06f4a9bff23d4f361828c930a19aaefcb768058",
-          "sha256": "318f2a13e267dede2bbf80f8efc58245c2ceeba70e01efab2f25e20d1c1d246b",
-          "sha1": "315bebc163ba79c1bbc001e7ef615cbeecc7aa6b",
-          "md5": "57479be6e63ba189562fc1fb6c983a84"
+          "size": 127555,
+          "sha512": "21f118f6d479b346702aa3d4a9340aaaf53b3e6f97190c972bfefaf3509594742e47b61bae3d10204a47ad8fe2c1c64cea34e7c86bd2c51ab6b56c81cbbd3b1c",
+          "sha256": "7bacd2cc00555691a9706d47a1d5b4786677b36800cfd4999f2493213fec1ee9",
+          "sha1": "05b055565b6194d055ddcab71650ed4637736138",
+          "md5": "619801f9e3504a32daeb0ff6a85560e5"
         }
       ]
     }
