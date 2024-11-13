@@ -1,0 +1,235 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.coolplay",
+    "module": "seattle_tv_sdk",
+    "version": "1.2.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "23.0.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-ima",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "xyz.doikki.android.dkplayer",
+          "module": "videocache",
+          "version": {
+            "requires": "3.3.7"
+          }
+        },
+        {
+          "group": "com.tencent.iot.thirdparty.android",
+          "module": "ijkplayer-java",
+          "version": {
+            "requires": "2.0.15"
+          }
+        },
+        {
+          "group": "com.tencent.iot.thirdparty.android",
+          "module": "ijkplayer-armv7a",
+          "version": {
+            "requires": "2.0.15"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "seattle_tv_sdk-1.2.6.aar",
+          "url": "seattle_tv_sdk-1.2.6.aar",
+          "size": 148318,
+          "sha512": "08422d151e817b8a8e300d564667608c53d01e8c0ae940facbd7fb82eb3647070cf43afa93d15bc417e4a3ebb08ca00b0cc746ea0ba8ca3f7ad9c534d0e3ab01",
+          "sha256": "79f58e71d2ef61a0219469cfafca0110544821188e3d4f578d329608214c919b",
+          "sha1": "30a84aa8d278c090f1b029561384181337d54646",
+          "md5": "3ac310542bdd7dbd4f575b8f0a24fa8d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "23.0.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-ima",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "xyz.doikki.android.dkplayer",
+          "module": "videocache",
+          "version": {
+            "requires": "3.3.7"
+          }
+        },
+        {
+          "group": "com.tencent.iot.thirdparty.android",
+          "module": "ijkplayer-java",
+          "version": {
+            "requires": "2.0.15"
+          }
+        },
+        {
+          "group": "com.tencent.iot.thirdparty.android",
+          "module": "ijkplayer-armv7a",
+          "version": {
+            "requires": "2.0.15"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "seattle_tv_sdk-1.2.6.aar",
+          "url": "seattle_tv_sdk-1.2.6.aar",
+          "size": 148318,
+          "sha512": "08422d151e817b8a8e300d564667608c53d01e8c0ae940facbd7fb82eb3647070cf43afa93d15bc417e4a3ebb08ca00b0cc746ea0ba8ca3f7ad9c534d0e3ab01",
+          "sha256": "79f58e71d2ef61a0219469cfafca0110544821188e3d4f578d329608214c919b",
+          "sha1": "30a84aa8d278c090f1b029561384181337d54646",
+          "md5": "3ac310542bdd7dbd4f575b8f0a24fa8d"
+        }
+      ]
+    }
+  ]
+}
