@@ -114,6 +114,159 @@
           }
         },
         {
+          "group": "com.zeasn.ad.connector",
+          "module": "connector",
+          "version": {
+            "requires": "2.1.6"
+          }
+        },
+        {
+          "group": "com.zeasn",
+          "module": "ad_vast_sdk",
+          "version": {
+            "requires": "8.0.0.16"
+          }
+        },
+        {
+          "group": "com.zeasn",
+          "module": "tou_sdk",
+          "version": {
+            "requires": "3.1.0.64"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "leanback"
+            }
+          ]
+        },
+        {
+          "group": "com.zeasn.common",
+          "module": "common",
+          "version": {
+            "requires": "1.1.77"
+          }
+        },
+        {
+          "group": "com.zeasn.analytics",
+          "module": "core",
+          "version": {
+            "requires": "1.1.77"
+          }
+        },
+        {
+          "group": "com.zeasn",
+          "module": "dp-api",
+          "version": {
+            "requires": "0.2.25"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "com.squareup.picasso",
+          "module": "picasso",
+          "version": {
+            "requires": "2.8"
+          }
+        },
+        {
+          "group": "io.reactivex",
+          "module": "rxjava",
+          "version": {
+            "requires": "1.1.6"
+          }
+        },
+        {
+          "group": "io.reactivex",
+          "module": "rxandroid",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-core",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-ui",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "extension-ima",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-hls",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "extension-cronet",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
           "group": "androidx.databinding",
           "module": "viewbinding",
           "version": {
@@ -132,11 +285,11 @@
         {
           "name": "seattle_tv_sdk-1.3.0.aar",
           "url": "seattle_tv_sdk-1.3.0.aar",
-          "size": 101769,
-          "sha512": "031ed66fe1c664ef6c2f0d5c9bd67f298116ba7b78b29e659ba3fb8a5514d4918e96ea486b360f0b166317447983493cca4d7d80417ddfdb35c215cf2e326515",
-          "sha256": "18b64c07dccd1beabc6e109534b307c43d790c7bd28eb1b801889487116a751b",
-          "sha1": "32444039e4db98386cae0f83b39fdd711799edd7",
-          "md5": "46e501402489891f28373fb5d22bc8a1"
+          "size": 132226,
+          "sha512": "983c225af6362f3b6048a84d6a24e3a2059d3c06a14cb3b5dbff1c4cb667df5a85c1f710708c1724da2d24b629929245a57a5463beb4a8a457c735befacd9d76",
+          "sha256": "efd109ab72571ef9b869824687222527dcc39b6d600e97551e0452049d443e19",
+          "sha1": "7add1f7a198f11d65150cf1354e5d428f110f453",
+          "md5": "faa0b2f3ab5768c4e3fad913210caf82"
         }
       ]
     },
@@ -247,6 +400,159 @@
           }
         },
         {
+          "group": "com.zeasn.ad.connector",
+          "module": "connector",
+          "version": {
+            "requires": "2.1.6"
+          }
+        },
+        {
+          "group": "com.zeasn",
+          "module": "ad_vast_sdk",
+          "version": {
+            "requires": "8.0.0.16"
+          }
+        },
+        {
+          "group": "com.zeasn",
+          "module": "tou_sdk",
+          "version": {
+            "requires": "3.1.0.64"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "leanback"
+            }
+          ]
+        },
+        {
+          "group": "com.zeasn.common",
+          "module": "common",
+          "version": {
+            "requires": "1.1.77"
+          }
+        },
+        {
+          "group": "com.zeasn.analytics",
+          "module": "core",
+          "version": {
+            "requires": "1.1.77"
+          }
+        },
+        {
+          "group": "com.zeasn",
+          "module": "dp-api",
+          "version": {
+            "requires": "0.2.25"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "com.squareup.picasso",
+          "module": "picasso",
+          "version": {
+            "requires": "2.8"
+          }
+        },
+        {
+          "group": "io.reactivex",
+          "module": "rxjava",
+          "version": {
+            "requires": "1.1.6"
+          }
+        },
+        {
+          "group": "io.reactivex",
+          "module": "rxandroid",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-core",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-ui",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "extension-ima",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-hls",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "extension-cronet",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
           "group": "androidx.databinding",
           "module": "viewbinding",
           "version": {
@@ -265,11 +571,11 @@
         {
           "name": "seattle_tv_sdk-1.3.0.aar",
           "url": "seattle_tv_sdk-1.3.0.aar",
-          "size": 101769,
-          "sha512": "031ed66fe1c664ef6c2f0d5c9bd67f298116ba7b78b29e659ba3fb8a5514d4918e96ea486b360f0b166317447983493cca4d7d80417ddfdb35c215cf2e326515",
-          "sha256": "18b64c07dccd1beabc6e109534b307c43d790c7bd28eb1b801889487116a751b",
-          "sha1": "32444039e4db98386cae0f83b39fdd711799edd7",
-          "md5": "46e501402489891f28373fb5d22bc8a1"
+          "size": 132226,
+          "sha512": "983c225af6362f3b6048a84d6a24e3a2059d3c06a14cb3b5dbff1c4cb667df5a85c1f710708c1724da2d24b629929245a57a5463beb4a8a457c735befacd9d76",
+          "sha256": "efd109ab72571ef9b869824687222527dcc39b6d600e97551e0452049d443e19",
+          "sha1": "7add1f7a198f11d65150cf1354e5d428f110f453",
+          "md5": "faa0b2f3ab5768c4e3fad913210caf82"
         }
       ]
     },
@@ -287,11 +593,11 @@
         {
           "name": "seattle_tv_sdk-1.3.0-sources.jar",
           "url": "seattle_tv_sdk-1.3.0-sources.jar",
-          "size": 48271,
-          "sha512": "c4f0e634be5e9988fe9704d2fd9f45d6c583a58476f9146cd50fae1d367d9ecba7d33b665953d06f55b89cc840cce4874de667d870c2cd33613783c5123fc507",
-          "sha256": "1e857156a81c5a99ac349f9e2ebe9f36aecfe8f75d69379aeb29acdd26c7f571",
-          "sha1": "bc441a8d788ad132daeaa8685f0139473502a5e9",
-          "md5": "c1fcd8b65b1bfbfda0df608f5f778e2d"
+          "size": 66209,
+          "sha512": "3d7a8805ad9fb736e56bb9366a810e295de2363eb113964c28aa2cf8ff1f51e3735309504ce77fcb30cb36d8d9809fea71467d76f9f7b91228042280daae8133",
+          "sha256": "82727430afc9d5764c42330188d8e928df4d6705b67e570c4f34c44f4bc4e2dc",
+          "sha1": "939ad37985ef86c9277e53fb920362cb1406febe",
+          "md5": "2b262fc0b21e9c4bbe78bdf788b0c217"
         }
       ]
     }
