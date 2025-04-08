@@ -1,0 +1,395 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.coolplay",
+    "module": "seattle_tv_sdk_whaltv",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.zeasn.ad.connector",
+          "module": "connector",
+          "version": {
+            "requires": "2.1.6"
+          }
+        },
+        {
+          "group": "com.zeasn",
+          "module": "ad_vast_sdk",
+          "version": {
+            "requires": "8.0.0.16"
+          }
+        },
+        {
+          "group": "com.zeasn",
+          "module": "tou_sdk",
+          "version": {
+            "requires": "3.1.0.64"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "leanback"
+            }
+          ]
+        },
+        {
+          "group": "com.zeasn.common",
+          "module": "common",
+          "version": {
+            "requires": "1.1.77"
+          }
+        },
+        {
+          "group": "com.zeasn.analytics",
+          "module": "core",
+          "version": {
+            "requires": "1.1.77"
+          }
+        },
+        {
+          "group": "com.zeasn",
+          "module": "dp-api",
+          "version": {
+            "requires": "0.2.25"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "com.squareup.picasso",
+          "module": "picasso",
+          "version": {
+            "requires": "2.8"
+          }
+        },
+        {
+          "group": "io.reactivex",
+          "module": "rxjava",
+          "version": {
+            "requires": "1.1.6"
+          }
+        },
+        {
+          "group": "io.reactivex",
+          "module": "rxandroid",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "cn.coolplay",
+          "module": "seattle_tv_sdk",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "seattle_tv_sdk_whaltv-1.0.aar",
+          "url": "seattle_tv_sdk_whaltv-1.0.aar",
+          "size": 13035,
+          "sha512": "2e978579ee46d6c0f22c7bac2755425955ead19518926896f1559d154ab88c3992055390c9b123e8a46f2f576c8b4a5515f1115b1399b68aba0f32a0179faae0",
+          "sha256": "df88c2708790ff7f10e47428575ba75e1289e6f1dd207f8ad22d197545eabaaa",
+          "sha1": "b00668e60e59628e29c2490b9a188896d8eeccb6",
+          "md5": "88c3d410cb41825624a8432d4ad8df48"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "com.zeasn.ad.connector",
+          "module": "connector",
+          "version": {
+            "requires": "2.1.6"
+          }
+        },
+        {
+          "group": "com.zeasn",
+          "module": "ad_vast_sdk",
+          "version": {
+            "requires": "8.0.0.16"
+          }
+        },
+        {
+          "group": "com.zeasn",
+          "module": "tou_sdk",
+          "version": {
+            "requires": "3.1.0.64"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "leanback"
+            }
+          ]
+        },
+        {
+          "group": "com.zeasn.common",
+          "module": "common",
+          "version": {
+            "requires": "1.1.77"
+          }
+        },
+        {
+          "group": "com.zeasn.analytics",
+          "module": "core",
+          "version": {
+            "requires": "1.1.77"
+          }
+        },
+        {
+          "group": "com.zeasn",
+          "module": "dp-api",
+          "version": {
+            "requires": "0.2.25"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "3.6.1"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "com.squareup.picasso",
+          "module": "picasso",
+          "version": {
+            "requires": "2.8"
+          }
+        },
+        {
+          "group": "io.reactivex",
+          "module": "rxjava",
+          "version": {
+            "requires": "1.1.6"
+          }
+        },
+        {
+          "group": "io.reactivex",
+          "module": "rxandroid",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "cn.coolplay",
+          "module": "seattle_tv_sdk",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "seattle_tv_sdk_whaltv-1.0.aar",
+          "url": "seattle_tv_sdk_whaltv-1.0.aar",
+          "size": 13035,
+          "sha512": "2e978579ee46d6c0f22c7bac2755425955ead19518926896f1559d154ab88c3992055390c9b123e8a46f2f576c8b4a5515f1115b1399b68aba0f32a0179faae0",
+          "sha256": "df88c2708790ff7f10e47428575ba75e1289e6f1dd207f8ad22d197545eabaaa",
+          "sha1": "b00668e60e59628e29c2490b9a188896d8eeccb6",
+          "md5": "88c3d410cb41825624a8432d4ad8df48"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "seattle_tv_sdk_whaltv-1.0-sources.jar",
+          "url": "seattle_tv_sdk_whaltv-1.0-sources.jar",
+          "size": 7529,
+          "sha512": "110adb3655c9c44bd4071591715dfc86804f5c41a18a2e86e6fcf4c3eef5c3dfccffe55c96bd6d2ec504cd57930e7f7cf4baca1bbfa9420af31510eab2504678",
+          "sha256": "49f39c1a18c477e0cf15f846f6f49878e5f5c064f3b53b46a34fbae26e3dc03c",
+          "sha1": "4024784e0d3f9ce92f64ba0417e825949958b6d7",
+          "md5": "ce6b4b6ced2ea760f73ee8f288e25a2a"
+        }
+      ]
+    }
+  ]
+}
