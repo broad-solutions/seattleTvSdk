@@ -59,12 +59,7 @@ maven配置: 项目根目录下settings.gradle
                     testMode = true,//是否是测试模式
                     initStatusCallBack = { i: Int, s: String? ->
                         "initSdk==$s".print()
-                        if (i == CoolPlaySdk.onInitTokenSuccess) {
-                            GlobalAppState.accessToken = s
-                        }
-                        if (i == CoolPlaySdk.onSyncAdConfigSuccess) {
-                            LocalAppState.adManager?.refreshTime()
-                        }
+            
                     },
                 ),
                 airMobiBuilder = AirMobiBuilder(this)
