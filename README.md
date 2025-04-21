@@ -41,12 +41,12 @@ maven配置: 项目根目录下settings.gradle
 
 ## 3. 初始化 SDK
 
-在您的应用程序中的合适位置初始化SeattleSdk广告SDK(推荐在application 中)。
+在您的应用程序中的合适位置初始化SeattleSdk广告SDK。
 
 - 在使用SDK前，请让贵司的商务先向我们商务代表申请client_id,client_secret。
-- 获取TOKEN的方法如下：
 
 ```
+      (在application 中)
       private fun initCoolPlay() {
         Thread {
             CoolPlaySdk.init(
