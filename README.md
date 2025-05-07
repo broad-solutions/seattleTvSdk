@@ -119,7 +119,9 @@ maven配置: 项目根目录下settings.gradle
   CoolPlaySdk.loadAd(adRequestBuilder)
   
   //消亡
-   fun destroy() {  
+   fun destroy() {
+      controller.release()
+      //队列模式下 需要缓冲一起清除的可以调用这个
       adRequestBuilder.destroy()
    }
 
