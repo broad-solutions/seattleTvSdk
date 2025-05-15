@@ -23,6 +23,13 @@
       },
       "dependencies": [
         {
+          "group": "cn.coolplay",
+          "module": "adsdk_aike",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
           "group": "androidx.databinding",
           "module": "viewbinding",
           "version": {
@@ -41,11 +48,11 @@
         {
           "name": "seattle_tv_sdk_airmobi_aike-1.0.aar",
           "url": "seattle_tv_sdk_airmobi_aike-1.0.aar",
-          "size": 7141,
-          "sha512": "e10c1f55f187692f846fe40bee09302d91f3e4a35c83ba6c34fcbd79ff5c2fd399e743fd8e7f5a61bec6ae4aa79e56950b3e92a36b00cd0d1857e8cf4b26f809",
-          "sha256": "046480e1eb357534ed94b3eb34954d9d994bdc7b7c60f9322c00bd2d80cb7a31",
-          "sha1": "63a6da277b34c107e38418a3cacf922e636068d2",
-          "md5": "ad45e561dab382b2fc36913ec4661e6a"
+          "size": 7140,
+          "sha512": "a8cbd2b5087e80586196905ba548fccae037fa4137882e062c80433c4723e3f998041bb05ebcd396f090196e5e43049dd27e0ac6007ada0e233983f94038c43d",
+          "sha256": "10777584edc9f455c5917674669cecf3e8eb740a1e9e2dc3aa6fb4342b740f4f",
+          "sha1": "47f24121b31f25a0896131350db776bf3c19e673",
+          "md5": "d4e159eac285dea889b4dcb8c169dd09"
         }
       ]
     },
@@ -97,11 +104,11 @@
         {
           "name": "seattle_tv_sdk_airmobi_aike-1.0.aar",
           "url": "seattle_tv_sdk_airmobi_aike-1.0.aar",
-          "size": 7141,
-          "sha512": "e10c1f55f187692f846fe40bee09302d91f3e4a35c83ba6c34fcbd79ff5c2fd399e743fd8e7f5a61bec6ae4aa79e56950b3e92a36b00cd0d1857e8cf4b26f809",
-          "sha256": "046480e1eb357534ed94b3eb34954d9d994bdc7b7c60f9322c00bd2d80cb7a31",
-          "sha1": "63a6da277b34c107e38418a3cacf922e636068d2",
-          "md5": "ad45e561dab382b2fc36913ec4661e6a"
+          "size": 7140,
+          "sha512": "a8cbd2b5087e80586196905ba548fccae037fa4137882e062c80433c4723e3f998041bb05ebcd396f090196e5e43049dd27e0ac6007ada0e233983f94038c43d",
+          "sha256": "10777584edc9f455c5917674669cecf3e8eb740a1e9e2dc3aa6fb4342b740f4f",
+          "sha1": "47f24121b31f25a0896131350db776bf3c19e673",
+          "md5": "d4e159eac285dea889b4dcb8c169dd09"
         }
       ]
     },
