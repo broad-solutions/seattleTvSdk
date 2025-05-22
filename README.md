@@ -16,7 +16,7 @@ SeattleSdk广告SDK提供了简单而强大的方式在您OTT盒子的应用程�
 build.gradle 文件中：
 
     dependencies {
-            implementation 'cn.coolplay:seattle_tv_sdk:1.3.1'
+            implementation 'cn.coolplay:seattle_tv_sdk:1.3.2.1'
             implementation 'cn.coolplay:seattle_tv_sdk_airmobi_nie:1.0'
     }
 
