@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.coolplay.player",
+    "module": "clplayer-ui",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "clplayer-ui-1.0.aar",
+          "url": "clplayer-ui-1.0.aar",
+          "size": 182546,
+          "sha512": "4ded4c55f16212e26f93b709151296fdd285c4026174b21d08effbba94b73175b14891857d5e5022c09b73f111f348f5f13c7cb384960d758c7b9e2f567b4ee0",
+          "sha256": "6c5aca10a0d31b537e2ec9e910884a0ee2161caaf6e6f19e1a0744142a952eeb",
+          "sha1": "a5a631da968b4d20962784cc0170e1fa299057b2",
+          "md5": "f949568ab3938a284c721154137ae5e2"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "clplayer-ui-1.0.aar",
+          "url": "clplayer-ui-1.0.aar",
+          "size": 182546,
+          "sha512": "4ded4c55f16212e26f93b709151296fdd285c4026174b21d08effbba94b73175b14891857d5e5022c09b73f111f348f5f13c7cb384960d758c7b9e2f567b4ee0",
+          "sha256": "6c5aca10a0d31b537e2ec9e910884a0ee2161caaf6e6f19e1a0744142a952eeb",
+          "sha1": "a5a631da968b4d20962784cc0170e1fa299057b2",
+          "md5": "f949568ab3938a284c721154137ae5e2"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "clplayer-ui-1.0-sources.jar",
+          "url": "clplayer-ui-1.0-sources.jar",
+          "size": 49985,
+          "sha512": "9a6ff0a82a53054f3607e03a41add04fe8eae83f64a146aa819efdab502dd84f4e30670fccbc36e78210a34f6650cc24d89bdb498267cfcf23e79ab5327fad2c",
+          "sha256": "b7f4af5a81d3dff4c9751b6f751a0bbad130a53f04d6369e6b47c08480e20997",
+          "sha1": "afb89e7a0b708054eb0f134f9e8be2fbfb9558da",
+          "md5": "82e240c3629583baf73da2e6446364cf"
+        }
+      ]
+    }
+  ]
+}

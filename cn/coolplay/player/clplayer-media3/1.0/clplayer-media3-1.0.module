@@ -1,0 +1,215 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.coolplay.player",
+    "module": "clplayer-media3",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-ima",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-hls",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-dash",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-rtsp",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-datasource-rtmp",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "clplayer-media3-1.0.aar",
+          "url": "clplayer-media3-1.0.aar",
+          "size": 14249,
+          "sha512": "4afe17eb340fac78cdd23040ad87aef9e2b291aab15546627a3003890b98332adea8aea7c201aee7b30ed398c3360e3c570e52db0564812b0fa3c081869540d9",
+          "sha256": "e18a0b514c0a83b24e9e2981cf3729330f1bf58b155e4036e30c59c11c12c35c",
+          "sha1": "5ce2e8c3204c6d1a97b5fe3197161e9480fbd27e",
+          "md5": "fa35b741df5147924e8e3d5b05b24f4d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-ima",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-hls",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-dash",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-rtsp",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-datasource-rtmp",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "clplayer-media3-1.0.aar",
+          "url": "clplayer-media3-1.0.aar",
+          "size": 14249,
+          "sha512": "4afe17eb340fac78cdd23040ad87aef9e2b291aab15546627a3003890b98332adea8aea7c201aee7b30ed398c3360e3c570e52db0564812b0fa3c081869540d9",
+          "sha256": "e18a0b514c0a83b24e9e2981cf3729330f1bf58b155e4036e30c59c11c12c35c",
+          "sha1": "5ce2e8c3204c6d1a97b5fe3197161e9480fbd27e",
+          "md5": "fa35b741df5147924e8e3d5b05b24f4d"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "clplayer-media3-1.0-sources.jar",
+          "url": "clplayer-media3-1.0-sources.jar",
+          "size": 9637,
+          "sha512": "8c93e31d5d7c73ee60aaf3d3a78a317c2c510f756615e729720b41101cd312a05a010eb991b61c004dac54e9c85a804eaf892ddedf4eeafce3dcde0d12363db3",
+          "sha256": "2e41260ef7997d80e4c28212fa259d93b058c1d5cc8cd3518d543d82dc1b6e72",
+          "sha1": "ff4ff086ca09c1aab14fbb0d063c388e5dcea226",
+          "md5": "faacbdcf0cdfab406bbf08dbc72d6c6e"
+        }
+      ]
+    }
+  ]
+}
