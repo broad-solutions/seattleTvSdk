@@ -141,11 +141,13 @@ maven配置: 项目根目录下settings.gradle
 
 
 ## 6. 混淆
-
+```
 -keep class cn.coolplay.** { *; }
 -keep class com.tcl.ff.component.vastad.**{*;}
 -keep class com.thoughtworks.xstream.**{*;}
 -keep class tv.danmaku.ijk.** { *; }
+```
+
 
 
 
