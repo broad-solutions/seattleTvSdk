@@ -8,8 +8,8 @@
   <!-- do_not_remove: published-with-gradle-metadata -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>cn.coolplay</groupId>
-  <artifactId>seattle_tv_sdk_airmobi_nie</artifactId>
-  <version>1.0.1</version>
+  <artifactId>seattle_tv_sdk_airmobi</artifactId>
+  <version>1.0</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
