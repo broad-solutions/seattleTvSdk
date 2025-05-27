@@ -20,6 +20,10 @@ build.gradle 文件中：
             implementation 'cn.coolplay:seattle_tv_sdk_airmobi:1.0'
             implementation 'cn.coolplay:adsdk_nie_test:1.0'//测试使用
             implementation 'cn.coolplay:adsdk_nie:1.0'//正式使用
+           //okhttp3okHttp4 如果项目中有其他版本的gson和OkHttp，只要api接口一样，可以复用。
+            implementation 'com.squareup.okhttp3:okhttp:3.12.12'
+            implementation 'com.google.code.gson:gson:2.10.1'
+
     }
 
 maven配置: 项目根目录下settings.gradle
