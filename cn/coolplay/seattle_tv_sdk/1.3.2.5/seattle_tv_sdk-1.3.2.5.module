@@ -97,11 +97,11 @@
         {
           "name": "seattle_tv_sdk-1.3.2.5.aar",
           "url": "seattle_tv_sdk-1.3.2.5.aar",
-          "size": 147847,
-          "sha512": "7b3c07de18c07962961896acaf02db30c99b190ad24062355e7cb0f0b50e7c121db8108e2a076fd1a3bfc1c90d33b0916874d09fd65ca3187efc15e4715f2c6f",
-          "sha256": "e5f228dc56a245903f79b44b7cf0f2198367116311c38addfe1a7d7ce48f1216",
-          "sha1": "7f045c52567119924cf7718ac304b06047ebc515",
-          "md5": "0863c81a8ffb0c79f0948c051ff59385"
+          "size": 147999,
+          "sha512": "8908d7319e79f41e2663175739161322df2098e63f9753aa782c42e3008ea881d9a05c69929d6e842dd3d5fe4296b4d1ab210210b47bbedbcefc336628aed916",
+          "sha256": "e7ea1cc52c71e51789166616485564022c0e2037e4800236307906cf07ed7a57",
+          "sha1": "701f1928484b85cbbb5e72ebcb66195e0b79e2a5",
+          "md5": "c2c41727d555674c5dcbd26b50672396"
         }
       ]
     },
@@ -195,11 +195,11 @@
         {
           "name": "seattle_tv_sdk-1.3.2.5.aar",
           "url": "seattle_tv_sdk-1.3.2.5.aar",
-          "size": 147847,
-          "sha512": "7b3c07de18c07962961896acaf02db30c99b190ad24062355e7cb0f0b50e7c121db8108e2a076fd1a3bfc1c90d33b0916874d09fd65ca3187efc15e4715f2c6f",
-          "sha256": "e5f228dc56a245903f79b44b7cf0f2198367116311c38addfe1a7d7ce48f1216",
-          "sha1": "7f045c52567119924cf7718ac304b06047ebc515",
-          "md5": "0863c81a8ffb0c79f0948c051ff59385"
+          "size": 147999,
+          "sha512": "8908d7319e79f41e2663175739161322df2098e63f9753aa782c42e3008ea881d9a05c69929d6e842dd3d5fe4296b4d1ab210210b47bbedbcefc336628aed916",
+          "sha256": "e7ea1cc52c71e51789166616485564022c0e2037e4800236307906cf07ed7a57",
+          "sha1": "701f1928484b85cbbb5e72ebcb66195e0b79e2a5",
+          "md5": "c2c41727d555674c5dcbd26b50672396"
         }
       ]
     },
@@ -217,11 +217,11 @@
         {
           "name": "seattle_tv_sdk-1.3.2.5-sources.jar",
           "url": "seattle_tv_sdk-1.3.2.5-sources.jar",
-          "size": 75401,
-          "sha512": "1c8f04c93940be598666ecd494c645b44b0bd7c05015e40492f38e3ea2dd43931e5ba0c77832ee5a916acce9f6e391e92e4ba9d9e03c0195133d06b30274afe0",
-          "sha256": "0f08a7fbdad3e588df5343e2e0b5488e2e638852ea92d1ae0574f1fc368ae5ff",
-          "sha1": "c2c46c75b68e77a278f7f384998ea865c3b05ed9",
-          "md5": "e336138aabb96af1b4225e0e16b31fb2"
+          "size": 75577,
+          "sha512": "71edd1f7b4b55040ea2c8ed3007740a1454a4dddeea80314a06282abe1c430f8e08a53e7a76c04c53ecfbf567dc0945e292da22f715c51130dc852737721053d",
+          "sha256": "87a2fc906c99c7cb5ed06f1ee49367a3948494842e521f855b08d72d94af9182",
+          "sha1": "04b90d377ce7e9fb73473268873697ac5aa3d1f1",
+          "md5": "d31c5744f16810c910b165831bb32ecf"
         }
       ]
     }
