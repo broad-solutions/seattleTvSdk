@@ -3,7 +3,7 @@
   "component": {
     "group": "cn.coolplay",
     "module": "seattle_tv_sdk_whaltv",
-    "version": "1.0",
+    "version": "1.0.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -23,24 +23,17 @@
       },
       "dependencies": [
         {
-          "group": "com.zeasn.ad.connector",
-          "module": "connector",
-          "version": {
-            "requires": "2.1.6"
-          }
-        },
-        {
           "group": "com.zeasn",
           "module": "ad_vast_sdk",
           "version": {
-            "requires": "8.0.0.16"
+            "requires": "8.0.5.16"
           }
         },
         {
           "group": "com.zeasn",
           "module": "tou_sdk",
           "version": {
-            "requires": "3.1.0.64"
+            "requires": "4.0.0.2"
           },
           "excludes": [
             {
@@ -50,17 +43,24 @@
           ]
         },
         {
+          "group": "com.zeasn.ad.connector",
+          "module": "connector",
+          "version": {
+            "requires": "3.0.5"
+          }
+        },
+        {
           "group": "com.zeasn.common",
           "module": "common",
           "version": {
-            "requires": "1.1.77"
+            "requires": "1.1.89"
           }
         },
         {
           "group": "com.zeasn.analytics",
           "module": "core",
           "version": {
-            "requires": "1.1.77"
+            "requires": "1.1.89"
           }
         },
         {
@@ -74,7 +74,7 @@
           "group": "com.airbnb.android",
           "module": "lottie",
           "version": {
-            "requires": "3.6.1"
+            "requires": "6.0.0"
           }
         },
         {
@@ -106,13 +106,6 @@
           }
         },
         {
-          "group": "com.squareup.okhttp3",
-          "module": "okhttp",
-          "version": {
-            "requires": "4.12.0"
-          }
-        },
-        {
           "group": "com.squareup.retrofit2",
           "module": "adapter-rxjava",
           "version": {
@@ -123,7 +116,7 @@
           "group": "com.squareup.okhttp3",
           "module": "logging-interceptor",
           "version": {
-            "requires": "4.8.1"
+            "requires": "4.10.0"
           }
         },
         {
@@ -131,6 +124,13 @@
           "module": "picasso",
           "version": {
             "requires": "2.8"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.13.2"
           }
         },
         {
@@ -155,6 +155,68 @@
           }
         },
         {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-core",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-ui",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "extension-ima",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-hls",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "extension-cronet",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-pal",
+          "version": {
+            "requires": "20.0.1"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "recyclerview",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
           "group": "androidx.databinding",
           "module": "viewbinding",
           "version": {
@@ -171,13 +233,13 @@
       ],
       "files": [
         {
-          "name": "seattle_tv_sdk_whaltv-1.0.aar",
-          "url": "seattle_tv_sdk_whaltv-1.0.aar",
-          "size": 13106,
-          "sha512": "c3b30b4760da1392aaeb37c5a4ec5487c9e0f99195f306bbe00f00662c2a74d1561dcf547261992124484373825e53f6b9e7512eb360cf6e03992b0fea997f84",
-          "sha256": "6569641bb25a40bfd3f0cd5c0269e9fba490c937bf17eba041b614c33a517549",
-          "sha1": "74f2f49d35f62d3a7eacf091651ba8b706af6c50",
-          "md5": "313fe1047d0496fe2bfe2cf6bb4bec5e"
+          "name": "seattle_tv_sdk_whaltv-1.0.1.aar",
+          "url": "seattle_tv_sdk_whaltv-1.0.1.aar",
+          "size": 13476,
+          "sha512": "f9b5d2816900abc551e0db088cce4148d2e3e657dd86415da084ffa578f8978e7e2fc9e6fbb2d47a7b8a93f325f7c657605a4bfd77d89c14788bc5fb106e199a",
+          "sha256": "0a7f55ba2e7fa08ee87384f4035c89bbd8990c952c3e135dbe8c6355c3c23be3",
+          "sha1": "4f9229170d2224b3fff4fe3d32460da42fa8f49c",
+          "md5": "6cb9ee2d216a18df3905c47726a995f8"
         }
       ]
     },
@@ -190,31 +252,17 @@
       },
       "dependencies": [
         {
-          "group": "androidx.core",
-          "module": "core-ktx",
-          "version": {
-            "requires": "1.15.0"
-          }
-        },
-        {
-          "group": "com.zeasn.ad.connector",
-          "module": "connector",
-          "version": {
-            "requires": "2.1.6"
-          }
-        },
-        {
           "group": "com.zeasn",
           "module": "ad_vast_sdk",
           "version": {
-            "requires": "8.0.0.16"
+            "requires": "8.0.5.16"
           }
         },
         {
           "group": "com.zeasn",
           "module": "tou_sdk",
           "version": {
-            "requires": "3.1.0.64"
+            "requires": "4.0.0.2"
           },
           "excludes": [
             {
@@ -224,17 +272,24 @@
           ]
         },
         {
+          "group": "com.zeasn.ad.connector",
+          "module": "connector",
+          "version": {
+            "requires": "3.0.5"
+          }
+        },
+        {
           "group": "com.zeasn.common",
           "module": "common",
           "version": {
-            "requires": "1.1.77"
+            "requires": "1.1.89"
           }
         },
         {
           "group": "com.zeasn.analytics",
           "module": "core",
           "version": {
-            "requires": "1.1.77"
+            "requires": "1.1.89"
           }
         },
         {
@@ -248,7 +303,7 @@
           "group": "com.airbnb.android",
           "module": "lottie",
           "version": {
-            "requires": "3.6.1"
+            "requires": "6.0.0"
           }
         },
         {
@@ -280,13 +335,6 @@
           }
         },
         {
-          "group": "com.squareup.okhttp3",
-          "module": "okhttp",
-          "version": {
-            "requires": "4.12.0"
-          }
-        },
-        {
           "group": "com.squareup.retrofit2",
           "module": "adapter-rxjava",
           "version": {
@@ -297,7 +345,7 @@
           "group": "com.squareup.okhttp3",
           "module": "logging-interceptor",
           "version": {
-            "requires": "4.8.1"
+            "requires": "4.10.0"
           }
         },
         {
@@ -305,6 +353,13 @@
           "module": "picasso",
           "version": {
             "requires": "2.8"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.13.2"
           }
         },
         {
@@ -329,6 +384,68 @@
           }
         },
         {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-core",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-ui",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "extension-ima",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-hls",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "extension-cronet",
+          "version": {
+            "requires": "2.17.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-pal",
+          "version": {
+            "requires": "20.0.1"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.4.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "recyclerview",
+              "type": "aar",
+              "extension": "aar"
+            }
+          }
+        },
+        {
           "group": "androidx.databinding",
           "module": "viewbinding",
           "version": {
@@ -345,13 +462,13 @@
       ],
       "files": [
         {
-          "name": "seattle_tv_sdk_whaltv-1.0.aar",
-          "url": "seattle_tv_sdk_whaltv-1.0.aar",
-          "size": 13106,
-          "sha512": "c3b30b4760da1392aaeb37c5a4ec5487c9e0f99195f306bbe00f00662c2a74d1561dcf547261992124484373825e53f6b9e7512eb360cf6e03992b0fea997f84",
-          "sha256": "6569641bb25a40bfd3f0cd5c0269e9fba490c937bf17eba041b614c33a517549",
-          "sha1": "74f2f49d35f62d3a7eacf091651ba8b706af6c50",
-          "md5": "313fe1047d0496fe2bfe2cf6bb4bec5e"
+          "name": "seattle_tv_sdk_whaltv-1.0.1.aar",
+          "url": "seattle_tv_sdk_whaltv-1.0.1.aar",
+          "size": 13476,
+          "sha512": "f9b5d2816900abc551e0db088cce4148d2e3e657dd86415da084ffa578f8978e7e2fc9e6fbb2d47a7b8a93f325f7c657605a4bfd77d89c14788bc5fb106e199a",
+          "sha256": "0a7f55ba2e7fa08ee87384f4035c89bbd8990c952c3e135dbe8c6355c3c23be3",
+          "sha1": "4f9229170d2224b3fff4fe3d32460da42fa8f49c",
+          "md5": "6cb9ee2d216a18df3905c47726a995f8"
         }
       ]
     },
@@ -367,13 +484,13 @@
       },
       "files": [
         {
-          "name": "seattle_tv_sdk_whaltv-1.0-sources.jar",
-          "url": "seattle_tv_sdk_whaltv-1.0-sources.jar",
-          "size": 7529,
-          "sha512": "110adb3655c9c44bd4071591715dfc86804f5c41a18a2e86e6fcf4c3eef5c3dfccffe55c96bd6d2ec504cd57930e7f7cf4baca1bbfa9420af31510eab2504678",
-          "sha256": "49f39c1a18c477e0cf15f846f6f49878e5f5c064f3b53b46a34fbae26e3dc03c",
-          "sha1": "4024784e0d3f9ce92f64ba0417e825949958b6d7",
-          "md5": "ce6b4b6ced2ea760f73ee8f288e25a2a"
+          "name": "seattle_tv_sdk_whaltv-1.0.1-sources.jar",
+          "url": "seattle_tv_sdk_whaltv-1.0.1-sources.jar",
+          "size": 7655,
+          "sha512": "c0f6d119976702f85fb24a5e8dbf458280b3d0a211c6924951c990ec80b4616281b742353a0cf56a7b441f7e5b1d4fdae0226cfa533a01c802e80ec2aa582b9d",
+          "sha256": "284fda6dfce83e7c02a3714e1c338b8220cb5616abe98af49a0b3c85025e3d75",
+          "sha1": "e438c1e82ef38a2279f8e0b9f41109e4b3bcc409",
+          "md5": "469ccab00d214b3727159b9ee679e367"
         }
       ]
     }
