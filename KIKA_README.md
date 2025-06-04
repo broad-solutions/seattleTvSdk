@@ -78,57 +78,33 @@ maven配置: 项目根目录下settings.gradle
 
 ```
    private val adRequestBuilder by lazy {
-        SplashRequest //开屏广告
-        BannerRequest //Banner广告
-        SectionRequest( //
-            context,
-            strategy = 0, 策略0 串行 1 并行
-            label = "main_rb_ad",// 广告标签
-            mLoadVideoTimeout = 15000,//加载广告超时时间
-            adsLoadedOkListener = ::adsLoadCallBack, //广告加载成功回调
-            allAdsLoadedErrorListener = { _, _ -> destroy() } // 全部渠道加载完毕
-        )
-    }
-
-    private var controller: CoolBaseControl? = null
-    
-      private fun adsLoadCallBack(adVastRequestBuilder: AdRequestBuilder, channel: String) {
-        //开始播放开屏广告
-        showAd()
-    }
-    
-  private fun showAd() { 
-   controller = adRequestBuilder.start(
-            this,
-            contentVideoUrl,// 视频链接 可为空
-            label = "main_rb_ad",
-            adEventListener = object : CoolPlayAdCallback {
-                override fun onAdEvent(event: AdEvent) {
-                //广告事件
-                if (event.type == AdEventType.ALL_ADS_COMPLETED || event.type == AdEventType.SKIPPED) {
+        SplashRequest(
+            adContainer,  //传入广告容器
+            adsLoadListener = CoolPlayAdListener( //传入广告监听
+                "splash",
+                adListener = object : CoolPlayAdCallback {
+                    //成功
+                    override fun onComplete() {
+                        "onComplete".print("Loading")
                         destroy()
                         goMain.invoke()
                     }
-                }
-               //内容视屏播放完成
-                override fun onComplete() {
-                    destroy()
-                }
-
-                override fun onError() {
-                    destroy()
-                }
-
-            })
-   }
+                     //失败
+                    override fun onError() {
+                        "onError".print("Loading")
+                        destroy()
+                        goMain.invoke()
+                    }
+                },
+            )
+        )
+    } 
    //开始加载广告
   CoolPlaySdk.loadAd(adRequestBuilder)
   
   //消亡
    fun destroy() {
-      controller.release()
-      //队列模式下 需要缓冲一起清除的可以调用这个
-      adRequestBuilder.destroy()
+      adRequestBuilder.release()
    }
 
 ```
@@ -137,10 +113,10 @@ maven配置: 项目根目录下settings.gradle
 
 - Splash广告(视频版)：视频广告，适用于App启动时，在Splash里展现广告内容，此时不需要传入视频链接。
 - Banner广告(视频版)：视频广告，适用于APP进入主界面后，可以在任何位置显示广告，此时不需要传入视频链接。
-- Section广告(视频版)：视频广告，适用于APP进入主界面后，一般支持视频播放过程中的前、中和后贴广告，所以此时必须传入视频链接，一般适用于播放影视作品时。
-
+- Section广告(视频版)：视频广告，适用于APP进入主界面后，一般支持视频播放过程中的前、中和后贴广告，所以此时必须传入视频链接，一般适用于播放影视作品时。（暂不支持）
 
 ## 6. 混淆
+
 ```
 -keep class cn.coolplay.** { *; }
 -keep class com.tcl.ff.component.vastad.**{*;}
