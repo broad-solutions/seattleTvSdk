@@ -34,11 +34,11 @@
         {
           "name": "seattle_tv_sdk_airmobi-1.0.1.aar",
           "url": "seattle_tv_sdk_airmobi-1.0.1.aar",
-          "size": 6711,
-          "sha512": "7aa520cf28c529a199141ecbba43872f9f836bc5ee603c4581545d82551a97633a49121fd5d64476a44c142116685d7bf74fdb9da80c57ea3e7e6a41fc5e82c9",
-          "sha256": "103c63b03be2828ec8e6acf50370f102d5b079e9f0f87a21e3dfc5a30fdd5d28",
-          "sha1": "84a4a9c18fe1c959a6681de65bc6feb1be2fb67e",
-          "md5": "c1f162efcb8bb071c5f03b9a2e340629"
+          "size": 6765,
+          "sha512": "d562e60a0ea78af6dd1fbfaef07d1e4c18ab88ab47376ac27f419fec19f47fefca73060f5c9e3ee60d3ac1957d11f18e47297ada60986961179c9235c2297adf",
+          "sha256": "941e8c20f04a7aef16a3c793b39cb9990e49ebf0a8e6198ad92b1e13a27c3e0d",
+          "sha1": "726fff196f8ec36250d119de718d1beca126df04",
+          "md5": "82f9841a04ddb779d782c8ad3b37b443"
         }
       ]
     },
@@ -69,11 +69,11 @@
         {
           "name": "seattle_tv_sdk_airmobi-1.0.1.aar",
           "url": "seattle_tv_sdk_airmobi-1.0.1.aar",
-          "size": 6711,
-          "sha512": "7aa520cf28c529a199141ecbba43872f9f836bc5ee603c4581545d82551a97633a49121fd5d64476a44c142116685d7bf74fdb9da80c57ea3e7e6a41fc5e82c9",
-          "sha256": "103c63b03be2828ec8e6acf50370f102d5b079e9f0f87a21e3dfc5a30fdd5d28",
-          "sha1": "84a4a9c18fe1c959a6681de65bc6feb1be2fb67e",
-          "md5": "c1f162efcb8bb071c5f03b9a2e340629"
+          "size": 6765,
+          "sha512": "d562e60a0ea78af6dd1fbfaef07d1e4c18ab88ab47376ac27f419fec19f47fefca73060f5c9e3ee60d3ac1957d11f18e47297ada60986961179c9235c2297adf",
+          "sha256": "941e8c20f04a7aef16a3c793b39cb9990e49ebf0a8e6198ad92b1e13a27c3e0d",
+          "sha1": "726fff196f8ec36250d119de718d1beca126df04",
+          "md5": "82f9841a04ddb779d782c8ad3b37b443"
         }
       ]
     },
@@ -91,11 +91,11 @@
         {
           "name": "seattle_tv_sdk_airmobi-1.0.1-sources.jar",
           "url": "seattle_tv_sdk_airmobi-1.0.1-sources.jar",
-          "size": 4341,
-          "sha512": "8245aa8f47720db350db75a918973cbf944b2c0644d30a797d4226110e12c132cfe0ea48db73278f92c705c1cf6e24676ca7a5631864ca72370b27f49183fa49",
-          "sha256": "612e5181f83791e37709c0d7a3eeed77c757b98dea4bb8a9f07c999675f8f30f",
-          "sha1": "3c93dc04f226c7d639a6caa8bcf319381a38cd2b",
-          "md5": "86af46a50ef5a1848df3638677f65e4c"
+          "size": 4393,
+          "sha512": "17cfeeec91ed1360c5f99d0bead8c3e14480c2625e4e9c7d813415f936fdd3be8d2adbce6f7134e2e9da037b7b0263f57b5ff678017f9a5c063e26061520816f",
+          "sha256": "71ed5e4e45a922f036c96854933a1035af45c26319cebb5139f494feed002839",
+          "sha1": "264b5cc8e63b2af4d79419fa7757101f159393ec",
+          "md5": "2b9cd6fe84260ade8bc3965f14cdbef1"
         }
       ]
     }
