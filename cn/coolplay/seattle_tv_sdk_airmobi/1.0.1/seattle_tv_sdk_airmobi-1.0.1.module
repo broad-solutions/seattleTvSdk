@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.coolplay",
+    "module": "seattle_tv_sdk_airmobi",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "seattle_tv_sdk_airmobi-1.0.1.aar",
+          "url": "seattle_tv_sdk_airmobi-1.0.1.aar",
+          "size": 6711,
+          "sha512": "7aa520cf28c529a199141ecbba43872f9f836bc5ee603c4581545d82551a97633a49121fd5d64476a44c142116685d7bf74fdb9da80c57ea3e7e6a41fc5e82c9",
+          "sha256": "103c63b03be2828ec8e6acf50370f102d5b079e9f0f87a21e3dfc5a30fdd5d28",
+          "sha1": "84a4a9c18fe1c959a6681de65bc6feb1be2fb67e",
+          "md5": "c1f162efcb8bb071c5f03b9a2e340629"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.3.1-android"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "seattle_tv_sdk_airmobi-1.0.1.aar",
+          "url": "seattle_tv_sdk_airmobi-1.0.1.aar",
+          "size": 6711,
+          "sha512": "7aa520cf28c529a199141ecbba43872f9f836bc5ee603c4581545d82551a97633a49121fd5d64476a44c142116685d7bf74fdb9da80c57ea3e7e6a41fc5e82c9",
+          "sha256": "103c63b03be2828ec8e6acf50370f102d5b079e9f0f87a21e3dfc5a30fdd5d28",
+          "sha1": "84a4a9c18fe1c959a6681de65bc6feb1be2fb67e",
+          "md5": "c1f162efcb8bb071c5f03b9a2e340629"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "seattle_tv_sdk_airmobi-1.0.1-sources.jar",
+          "url": "seattle_tv_sdk_airmobi-1.0.1-sources.jar",
+          "size": 4341,
+          "sha512": "8245aa8f47720db350db75a918973cbf944b2c0644d30a797d4226110e12c132cfe0ea48db73278f92c705c1cf6e24676ca7a5631864ca72370b27f49183fa49",
+          "sha256": "612e5181f83791e37709c0d7a3eeed77c757b98dea4bb8a9f07c999675f8f30f",
+          "sha1": "3c93dc04f226c7d639a6caa8bcf319381a38cd2b",
+          "md5": "86af46a50ef5a1848df3638677f65e4c"
+        }
+      ]
+    }
+  ]
+}
