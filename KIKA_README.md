@@ -16,7 +16,10 @@ SeattleSdk广告SDK提供了简单而强大的方式在您OTT盒子的应用程�
 build.gradle 文件中：
 
     dependencies {
-            implementation 'cn.coolplay:seattle_tv_sdk:1.3.2.6'
+
+[//]: # (            implementation 'cn.coolplay:seattle_tv_sdk:1.3.2.6')
+
+            implementation 'cn.coolplay:seattle_tv_sdk:1.3.2.7.2'
             implementation 'cn.coolplay:seattle_tv_sdk_airmobi:1.0.1'
             implementation 'cn.coolplay:adsdk_nie_test:1.0'//测试使用
             implementation 'cn.coolplay:adsdk_nie:1.0'//正式使用
@@ -78,28 +81,35 @@ maven配置: 项目根目录下settings.gradle
 ##4. 代码集成:
 
 ```
-   private val adRequestBuilder by lazy {
-        SplashRequest(
-            adContainer,  //传入广告容器
-            adsLoadListener = CoolPlayAdListener( //传入广告监听
-                "splash",
-                adListener = object : CoolPlayAdCallback {
-                    //成功
-                    override fun onComplete() {
-                        "onComplete".print("Loading")
-                        destroy()
-                        goMain.invoke()
-                    }
-                     //失败
-                    override fun onError() {
-                        "onError".print("Loading")
-                        destroy()
-                        goMain.invoke()
-                    }
-                },
-            )
-        )
-    } 
+    布局
+    <cn.coolplay.sdk.player.ClPlayerView xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      android:id="@+id/player_view"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:buffered_color="@color/white"
+      app:controller_layout_id="@layout/layout_drama_controller_holder" //自定义controller 可以不使用
+      app:show_buffering="always" />
+    
+    adRequestBuilder = SectionRequest(
+            adView,
+            mVideoMute = 2,  //静音 0、全部  1、广告静音 2 全部开启声音
+            isVMap = true,   //前中后贴 配置为 true 其他配置为false 默认是false
+            adsLoadListener = CoolPlayAdListener("label", commonPrams, adListener = object : CoolPlayAdCallback {
+                override fun attachPlayer(context: Context): ClPlayerView {
+                    //这里绑定播放器 这里使用将 PlayerView替换为 CpPlayerView 其他跟PlayerView 使用一致
+                    return playerView
+                }
+
+                override fun onComplete() {
+                    super.onComplete()
+                    "视屏播放完毕,继续下一集".print("PlayerEpisodeFragment")
+                }
+            })
+        ).apply {
+            // 设置加载超时时间
+            mLoadVideoTimeout = 15000
+        }
    //开始加载广告
   CoolPlaySdk.loadAd(adRequestBuilder)
   
@@ -114,7 +124,7 @@ maven配置: 项目根目录下settings.gradle
 
 - Splash广告(视频版)：视频广告，适用于App启动时，在Splash里展现广告内容，此时不需要传入视频链接。
 - Banner广告(视频版)：视频广告，适用于APP进入主界面后，可以在任何位置显示广告，此时不需要传入视频链接。
-- Section广告(视频版)：视频广告，适用于APP进入主界面后，一般支持视频播放过程中的前、中和后贴广告，所以此时必须传入视频链接，一般适用于播放影视作品时。（暂不支持）
+- Section广告(视频版)：视频广告，适用于APP进入主界面后，一般支持视频播放过程中的前、中和后贴广告，所以此时必须传入视频链接，一般适用于播放影视作品时
 
 ## 6. 混淆
 
