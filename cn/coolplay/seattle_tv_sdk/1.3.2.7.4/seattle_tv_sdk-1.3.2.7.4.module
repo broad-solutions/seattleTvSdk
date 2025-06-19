@@ -1,0 +1,215 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.coolplay",
+    "module": "seattle_tv_sdk",
+    "version": "1.3.2.7.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "23.6.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-ima",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-hls",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.tencent",
+          "module": "mmkv-static",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "seattle_tv_sdk-1.3.2.7.4.aar",
+          "url": "seattle_tv_sdk-1.3.2.7.4.aar",
+          "size": 135696,
+          "sha512": "5b30781122372a484c823e1d0c0f834c048a6f589000daeaa1d29fe05dffbe416ac541883e6c9805c46ef8cff51c82c68e333fbf1461fb6c828a95fbd709bb45",
+          "sha256": "9479c96339a6261303587a575c34c54199df4db2a65b8edcbd638b63a0490c6e",
+          "sha1": "f42fd0b2239bf48516015028d6ee528574a55a43",
+          "md5": "0da7e11a0dc2d8344957015635868b03"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "23.6.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-ima",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-hls",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.tencent",
+          "module": "mmkv-static",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "seattle_tv_sdk-1.3.2.7.4.aar",
+          "url": "seattle_tv_sdk-1.3.2.7.4.aar",
+          "size": 135696,
+          "sha512": "5b30781122372a484c823e1d0c0f834c048a6f589000daeaa1d29fe05dffbe416ac541883e6c9805c46ef8cff51c82c68e333fbf1461fb6c828a95fbd709bb45",
+          "sha256": "9479c96339a6261303587a575c34c54199df4db2a65b8edcbd638b63a0490c6e",
+          "sha1": "f42fd0b2239bf48516015028d6ee528574a55a43",
+          "md5": "0da7e11a0dc2d8344957015635868b03"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "seattle_tv_sdk-1.3.2.7.4-sources.jar",
+          "url": "seattle_tv_sdk-1.3.2.7.4-sources.jar",
+          "size": 66691,
+          "sha512": "ec6370a9323ae049eb552e622cb396ad2abf323c33ff0699e9efb1738b22185a3239f0c61310d576e327848162a15225a61a09cf8c385b8523a929556e17d1f5",
+          "sha256": "e7c76f323244a3740d5064a4574e54be46965f7a4f0419baa2f22f6b18ebebd7",
+          "sha1": "005f9dd2001ac9b3a3b51bb30712a4103eedf1e1",
+          "md5": "c78f4ad914d76a6fe958526e3d60294d"
+        }
+      ]
+    }
+  ]
+}
