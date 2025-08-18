@@ -1,0 +1,201 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "cn.coolplay",
+    "module": "seattle_tv_sdk",
+    "version": "1.3.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-ima",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-hls",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.tencent",
+          "module": "mmkv-static",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "seattle_tv_sdk-1.3.4.aar",
+          "url": "seattle_tv_sdk-1.3.4.aar",
+          "size": 139523,
+          "sha512": "1ea0701dbbc2e9345d284ddb9d2538da4f441b7a4a802e7ba7950366a4d0b1626cf7f9c38324490c144118e3e119bd57d4efd89e56906aa93a1408f2790bf833",
+          "sha256": "e7dd8601c670ef44ca9c42859a6f196dbae58abdddf5c14638eb18e0e9d0a0bf",
+          "sha1": "61e87e766e60316c813d331d2d45ce16e87eb8cb",
+          "md5": "aa2ddf724d03e6abc8e2d99119d576be"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-ima",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-hls",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.tencent",
+          "module": "mmkv-static",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "seattle_tv_sdk-1.3.4.aar",
+          "url": "seattle_tv_sdk-1.3.4.aar",
+          "size": 139523,
+          "sha512": "1ea0701dbbc2e9345d284ddb9d2538da4f441b7a4a802e7ba7950366a4d0b1626cf7f9c38324490c144118e3e119bd57d4efd89e56906aa93a1408f2790bf833",
+          "sha256": "e7dd8601c670ef44ca9c42859a6f196dbae58abdddf5c14638eb18e0e9d0a0bf",
+          "sha1": "61e87e766e60316c813d331d2d45ce16e87eb8cb",
+          "md5": "aa2ddf724d03e6abc8e2d99119d576be"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "seattle_tv_sdk-1.3.4-sources.jar",
+          "url": "seattle_tv_sdk-1.3.4-sources.jar",
+          "size": 68835,
+          "sha512": "61060a205a8b8cfed5d9301abd32392e81880d381cb9a0caacdab368661ee62ead032dd55cca0974caf4e92d03a40cc576bf732f6697ced9fa442127a31a22aa",
+          "sha256": "e3be34c0025b379d8a7378b66d705f608e16d741b96c5a6a3ffa28cba0436a09",
+          "sha1": "6d91d49077a996c43942fe746b354ec63efb6287",
+          "md5": "f09ae0eff0b49e5f8846cbc4348f7bc5"
+        }
+      ]
+    }
+  ]
+}
